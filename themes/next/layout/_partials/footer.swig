@@ -55,17 +55,14 @@
   </div>
 {%- endif %}
 
-{%- if theme.add_this_id %}
-  <div class="addthis_inline_share_toolbox">
-    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ theme.add_this_id }}" async="async"></script>
-  </div>
-{%- endif %}
-
 {{- next_inject('footer') }}
 
 
 {% if theme.busuanzi_count.enable %}
-    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+  </script>
 
     <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
     <span class="post-meta-divider">|</span>
@@ -92,5 +89,6 @@ $(document).ready(function() {
     }
        	
 });
-</script> 
-{% endif %}
+</script>
+{%- endif %}
+
