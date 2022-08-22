@@ -34,7 +34,7 @@ categories:
 
 
 打开官网:[Github](https://github.com/)
-
+<!--more-->
 1.点击  <b>*sign up*</b> 注册
 
 2.填写相关信息点击 <b>*Next: select a plan*</b>进入下一页
@@ -46,7 +46,7 @@ categories:
 5.接下来就是验证邮箱地址了，GitHub会发送邮件到你刚才填的邮箱地址，例如我填的是QQ邮箱，登录QQ邮箱，打开收到的邮件，点击 <b>*Verify email address*</b>, 进入Github的登录界面，点击<b>*sign in*</b>会要求填写验证码，再次进入邮箱查看验证码，填写后登录
 
 6.进入Github后先创建一个代码仓库
-<!--more-->
+
 ## 二、Git安装
 
 1.打开Git官网:[Git官网](https://git-scm.com/)，点击 <b>*Downloads*</b>下载，选择对应系统类型，下载完成后直接 Next 安装，安装完成后直接打开 Git Bash 即可，点击鼠标右键如果存在 Git Bash 就证明安装成功
