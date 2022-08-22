@@ -8,23 +8,23 @@ let { execSync } = require('child_process');
 (()=> {
 
 // 编译打包
-execSync(`hexo clean`)
-execSync(`hexo g`, { encoding: 'utf-8', stdio: 'inherit' })
+execSync(`hexo clean`) // 清空编译
+execSync(`hexo g`, { encoding: 'utf-8', stdio: 'inherit' }) // 重新编译
 
 
   // 正确设置本地dist文件路径
-  const deployPath = path.resolve(__dirname, '.')
-  const distPath = path.resolve(__dirname, '../public')
+  const deployPath = path.resolve(__dirname, '.') // 打包成zip所在的目录
+  const distPath = path.resolve(__dirname, '../public') // 编译完成目录
 
 
 
   // 服务器对象
   let connectOptions = {
-      host: '47.108.157.148',
-      username: 'root',
-      port :22,
-      pathUrl:'/www/wwwroot/www.duduaaBlog.com',
-      password:'FIVEred888'
+      host: '', // ip
+      username: 'root', // 服务器用户名
+      port :22, // 端口，记得在控制台打开防火墙
+      pathUrl:'/www/wwwroot/www.duduaaBlog.com', // 项目所在目录
+      password:'' // 服务器密码
   }
 
   // 连接到服务器
