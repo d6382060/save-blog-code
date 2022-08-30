@@ -21,6 +21,7 @@ git reset --hard HEAD^
 3. 使用 git reflog 来查看git操作记录
 >这个命令可以查看所有的命令使用记录，在这可以看到commit id
 
+<!--more-->
 ## 管理修改
 
 1. git diff HEAD -- readme.txt
