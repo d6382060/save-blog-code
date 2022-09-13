@@ -90,5 +90,4 @@ const paramObj = Object.fromEntries(queryParams);
 console.log(paramObj);  // { name: 'jimmy', age: '18', height: '1.88' }
 ```
 
-
-   
+ 
